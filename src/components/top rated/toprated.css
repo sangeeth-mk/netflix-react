@@ -1,0 +1,22 @@
+.row{
+    margin-left: 10px
+    }
+    
+    .largeposters{
+        display: flex;
+        padding: 10px;
+    }
+    
+    .smallposter_img{
+        max-height: 250px;
+        margin-right: 20px;
+        max-width: 20%;
+        border-radius: 5px;
+        transition: transform 450ms;
+        cursor: pointer;
+
+    }
+
+    .smallposter_img:hover{
+        transform: scale(1.09);
+    }
